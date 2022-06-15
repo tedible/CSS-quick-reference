@@ -1,0 +1,65 @@
+h1,h3,p {
+    text-align: center;
+}
+body {
+    background-image: url(https://thumbs.dreamstime.com/b/bookshelf-background-d-quality-render-65434293.jpg);
+    font-family: monospace;
+}
+header {
+    background-color: blanchedalmond;
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    background-color: crimson;
+    width: 80%; /*or, 300px, */
+    margin-left: auto; /*centers div horizontally*/
+    margin-right: auto;
+}
+/* comments like this */
+.booklist { /*.class-name selects a class*/
+    background-color: blanchedalmond;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+
+}
+.book,.nonfic {
+    text-align: left;
+    width: 49%;
+}
+.price {
+    text-align: right;
+    width: 49%;
+}
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+hr {
+    height: 3px;
+}
+/*FOOTER*/
+footer {
+    background-color: blanchedalmond;
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.waterstones-link {
+    color: black;
+}
+.waterstones-link:clicked {
+    color: grey;
+}
+.waterstones-link:hover {
+    color: purple;
+}
+.waterstones-link:active {
+    color: white;
+    
+}
